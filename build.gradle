@@ -58,7 +58,7 @@ targetCompatibility = 1.8
 // end::dependencies[]
 
 // tag::wrapper[]
-task wrapper(type: Wrapper) {
+task wrapper1(type: Wrapper) {
     gradleVersion = '2.8'
 }
 //3.5
