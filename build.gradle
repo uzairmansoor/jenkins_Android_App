@@ -41,10 +41,10 @@ repositories {
 // end::repositories[]
 
 // tag::jar[]
-jar {
-    baseName = 'jb-hello-world'
-    version =  '0.1.0'
-}
+// jar {
+//     baseName = 'jb-hello-world'
+//     version =  '0.1.0'
+// }
 // end::jar[]
 
 // tag::dependencies[]
