@@ -1,21 +1,21 @@
 package hello;
 
-// import org.joda.time.LocalTime;
+import org.joda.time.LocalTime;
 
-// public class HelloWorld {
-//   public static void main(String[] args) {
-//     LocalTime currentTime = new LocalTime();
-//     System.out.println("The current local time is: " + currentTime);
+public class HelloWorld {
+  public static void main(String[] args) {
+    LocalTime currentTime = new LocalTime();
+    System.out.println("The current local time is: " + currentTime);
     
-//     Greeter greeter = new Greeter();
-//     System.out.println(greeter.sayHello());
-//   }
-// }
-
-public class HelloWorld{
-    public static void main (String[] args){
-        for (int i=0;i<10;i++){
-            System.out.println("HelloWorld");
-        }
-    }
+    Greeter greeter = new Greeter();
+    System.out.println(greeter.sayHello());
+  }
 }
+
+// public class HelloWorld{
+//     public static void main (String[] args){
+//         for (int i=0;i<10;i++){
+//             System.out.println("HelloWorld");
+//         }
+//     }
+// }
