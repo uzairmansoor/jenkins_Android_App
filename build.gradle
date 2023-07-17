@@ -59,7 +59,7 @@ targetCompatibility = 1.8
 
 // tag::wrapper[]
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
+    gradleVersion = '2.8'
 }
 //3.5
 //gradle-8.2.1-bin.zip
